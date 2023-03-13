@@ -56,14 +56,90 @@ input {
   border-radius: 0;
 }
 
-h1 {
+.header {
+  width: 100%;
+  background-color: #1A2633;
+}
+.header-container {
+  max-width: 1530px;
+  margin: 0 auto;
+}
+.header-container__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-container__content_nav {
+  margin-left: 740px;
+}
+.header-container__content_nav .nav__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-container__content_nav .nav__items_item:nth-last-child(n+2) {
+  margin-right: 60px;
+}
+.header-container__content_nav .nav__items_item .nav__item_link {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+  position: relative;
+}
+.header-container__content_nav .nav__items_item .nav__item_link:hover {
+  color: #227CE4;
+}
+.header-container__content_nav .nav__items_item .nav__item_link:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  background-color: #227CE4;
+  top: 125%;
+  left: 50%;
+}
+.header-container__content_lang {
+  margin-left: 64px;
+}
+.header-container__content_lang .lang__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-container__content_lang .lang__content_default {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #80828D;
+  padding: 15px 13px 16px 13px;
+}
+.header-container__content_lang .lang__content_switcher {
+  width: 10px;
+  margin-left: 10px;
+}
+.header-container__content_lang .lang__content_switcher:hover {
+  cursor: pointer;
 }

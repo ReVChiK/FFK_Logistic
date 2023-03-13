@@ -2,7 +2,64 @@
 @import ./fonts/fonts
 
 // font-family: 'Montserrat', sans-serif
-h1
-    display: flex
-    justify-content: center
-    align-items: center
+
+.header
+    width: 100%
+    background-color: #1A2633
+    &-container
+        max-width: 1530px
+        margin: 0 auto
+        &__content
+            display: flex
+            align-items: center
+            font-family: 'Montserrat', sans-serif
+            padding-top: 10px
+            padding-bottom: 10px
+            &_nav
+                margin-left: 740px
+                .nav__items
+                    display: flex
+                    align-items: center
+                    &_item
+                        &:nth-last-child(n+2)
+                            margin-right: 60px
+                        .nav__item_link
+                            text-decoration: none
+                            font-weight: 500
+                            font-size: 12px
+                            line-height: 15px
+                            color: #fff
+                            letter-spacing: 0.1em
+                            text-transform: uppercase
+                            transition: color .2s linear
+                            position: relative
+                            &:hover
+                                color: #227CE4
+                                &::after
+                                    content: ""
+                                    display: block
+                                    position: absolute
+                                    width: 1px
+                                    height: 16px
+                                    background-color: #227CE4
+                                    top: 125%
+                                    left: 50%
+            &_lang
+                margin-left: 64px
+                .lang__content
+                    display: flex
+                    align-items: center
+                    &_default
+                        font-weight: 600
+                        font-size: 12px
+                        line-height: 15px
+                        letter-spacing: 0.1em
+                        text-transform: uppercase
+                        color: #fff
+                        border: 1px solid #80828D
+                        padding: 15px 13px 16px 13px
+                    &_switcher
+                        width: 10px
+                        margin-left: 10px
+                        &:hover
+                            cursor: pointer

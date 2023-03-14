@@ -265,3 +265,94 @@ input {
 .wrapper-container__content_info .info__button .btn-call:hover {
   cursor: pointer;
 }
+.wrapper-container__shape {
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper-container__shape_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 109px;
+  padding-bottom: 70px;
+  position: relative;
+}
+.wrapper-container__shape_content-city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.wrapper-container__shape_content-pics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 135px;
+}
+.wrapper-container__shape_content-pics .pic__item:nth-last-child(n+2) {
+  margin-right: 30px;
+}
+.wrapper-container__shape_content-pics .pic__item_img img {
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+.wrapper-container__shape_content-pics .pic__item_img img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.wrapper-container__shape_content-pics .pic__item_text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.wrapper-container__shape_content-map {
+  width: 320px;
+  margin-left: 118px;
+}
+.wrapper-container__shape_content-data {
+  font-family: "Montserrat", sans-serif;
+  max-width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  right: 1%;
+}
+.wrapper-container__shape_content-data_map__geo {
+  width: 15px;
+  margin: 0 auto;
+}
+.wrapper-container__shape_content-data_map__city {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 8px;
+}
+.wrapper-container__shape_content-data_map__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 14px;
+}
+.wrapper-container__shape_content-data_map__text span {
+  font-weight: 600;
+}

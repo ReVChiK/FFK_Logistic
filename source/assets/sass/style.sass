@@ -150,4 +150,68 @@
                         color: #fff
                         &:hover
                             cursor: pointer
-                        
+        &__shape
+            font-family: 'Montserrat', sans-serif
+            &_content
+                display: flex
+                margin-top: 109px
+                padding-bottom: 70px
+                position: relative
+                &-city
+                    display: flex
+                    align-items: flex-end
+                    font-weight: 600
+                    font-size: 14px
+                    line-height: 24px
+                    text-transform: uppercase
+                    color: #fff
+                &-pics
+                    display: flex
+                    align-items: center  
+                    margin-left: 135px
+                    .pic__item
+                        &:nth-last-child(n+2)
+                            margin-right: 30px
+                        &_img
+                            img
+                                transition: transform .2s linear
+                                &:hover
+                                    cursor: pointer
+                                    transform: scale(1.1)
+                        &_text
+                            font-weight: 600
+                            font-size: 14px
+                            line-height: 24px
+                            color: #fff
+                            text-align: center
+                            margin-top: 25px
+                            text-transform: uppercase
+                &-map
+                    width: 320px
+                    margin-left: 118px  
+                &-data
+                    font-family: 'Montserrat', sans-serif
+                    max-width: 250px
+                    margin: 0 auto
+                    text-align: center
+                    position: absolute
+                    top: 15%
+                    right: 1%
+                    &_map__geo
+                        width: 15px
+                        margin: 0 auto
+                    &_map__city
+                        font-weight: 500
+                        font-size: 16px
+                        line-height: 24px
+                        text-transform: uppercase
+                        color: #fff
+                        margin-top: 8px
+                    &_map__text
+                        font-weight: 400
+                        font-size: 12px
+                        line-height: 24px
+                        color: #fff
+                        margin-top: 14px
+                        span
+                            font-weight: 600

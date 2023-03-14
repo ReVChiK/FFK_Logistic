@@ -20,6 +20,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./source/assets/img/airplane.png":
+/*!****************************************!*\
+  !*** ./source/assets/img/airplane.png ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"./assets/images/27dd2342970ca84f895a278f629cf9b6.png\");\n\n//# sourceURL=webpack://ffk_logistic/./source/assets/img/airplane.png?");
+
+/***/ }),
+
+/***/ "./source/assets/img/flowers.png":
+/*!***************************************!*\
+  !*** ./source/assets/img/flowers.png ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"./assets/images/0f00747ae4fbf3585d7aedfd8ff8b471.png\");\n\n//# sourceURL=webpack://ffk_logistic/./source/assets/img/flowers.png?");
+
+/***/ }),
+
 /***/ "./source/assets/sass/style.sass":
 /*!***************************************!*\
   !*** ./source/assets/sass/style.sass ***!
@@ -28,6 +50,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://ffk_logistic/./source/assets/sass/style.sass?");
+
+/***/ }),
+
+/***/ "./source/assets/icons/mail.svg":
+/*!**************************************!*\
+  !*** ./source/assets/icons/mail.svg ***!
+  \**************************************/
+/***/ ((module) => {
+
+eval("module.exports = \"<svg viewBox=\\\"0 0 16 12\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><g clip-path=\\\"url(#clip0_405_5162)\\\"><path d=\\\"M15.9 0.8L11 5.6L15.9 10.4C16 10.2 16 10 16 9.8V1.4C16 1.2 15.9 1 15.9 0.8ZM14.6 0H1.4C1.2 0 1 0.1 0.8 0.1L7 6.3C7.5 6.8 8.4 6.8 9 6.3L15.2 0.1C15 0.1 14.8 0 14.6 0ZM0.1 0.8C0.1 1 0 1.2 0 1.4V9.8C0 10 0.1 10.2 0.1 10.4L5 5.6L0.1 0.8ZM10.3 6.3L9.7 7C8.7 7.9 7.3 7.9 6.3 7L5.7 6.3L0.8 11.1C1 11.2 1.2 11.2 1.4 11.2H14.6C14.8 11.2 15 11.1 15.2 11.1L10.3 6.3Z\\\" fill=\\\"white\\\"></path></g><defs><clipPath id=\\\"clip0_405_5162\\\"><rect width=\\\"16\\\" height=\\\"11.3\\\" fill=\\\"white\\\"></rect></clipPath></defs></svg>\"\n\n//# sourceURL=webpack://ffk_logistic/./source/assets/icons/mail.svg?");
+
+/***/ }),
+
+/***/ "./source/assets/icons/phone.svg":
+/*!***************************************!*\
+  !*** ./source/assets/icons/phone.svg ***!
+  \***************************************/
+/***/ ((module) => {
+
+eval("module.exports = \"<svg viewBox=\\\"0 0 16 16\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><g clip-path=\\\"url(#clip0_405_5158)\\\"><path d=\\\"M15.5 11.5C15.5 11.5 12.3 9.2 11.4 9.3C11 9.4 10.7 9.7 10.3 10.2C10.2 10.3 10 10.5 9.9 10.7C9.6 10.6 9.3 10.5 9 10.3C7.5 9.7 6.3 8.5 5.6 7C5.5 6.7 5.3 6.4 5.2 6.1C5.4 6 5.6 5.8 5.7 5.7C6.3 5.3 6.6 5 6.6 4.6C6.8 3.7 4.5 0.5 4.4 0.5C4.3 0.2 3.9 0 3.6 0C2.6 0 0 3.4 0 4C0 4 0 7.4 4.3 11.7C8.5 16 12 16 12 16C12.6 16 16 13.4 16 12.4C16 12.1 15.8 11.7 15.5 11.5Z\\\" fill=\\\"white\\\"></path></g><defs><clipPath id=\\\"clip0_405_5158\\\"><rect width=\\\"16\\\" height=\\\"16\\\" fill=\\\"white\\\"></rect></clipPath></defs></svg>\"\n\n//# sourceURL=webpack://ffk_logistic/./source/assets/icons/phone.svg?");
 
 /***/ }),
 
@@ -59,7 +101,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SvgSwitcher\": () => (/* binding */ SvgSwitcher)\n/* harmony export */ });\nfunction SvgSwitcher(selector, icon){\r\n    return selector.innerHTML = icon\r\n}\n\n//# sourceURL=webpack://ffk_logistic/./source/assets/scripts/components/svg.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SvgIcon\": () => (/* binding */ SvgIcon)\n/* harmony export */ });\nfunction SvgIcon(selector, icon){\r\n    return selector.innerHTML = icon\r\n}\n\n//# sourceURL=webpack://ffk_logistic/./source/assets/scripts/components/svg.js?");
 
 /***/ }),
 
@@ -70,7 +112,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/style.sass */ \"./source/assets/sass/style.sass\");\n/* harmony import */ var _img_Logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/Logo.png */ \"./source/assets/img/Logo.png\");\n/* harmony import */ var _icons_switcher_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../icons/switcher.svg */ \"./source/assets/icons/switcher.svg\");\n/* harmony import */ var _icons_switcher_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_icons_switcher_svg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _components_logo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/logo */ \"./source/assets/scripts/components/logo.js\");\n/* harmony import */ var _components_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/svg */ \"./source/assets/scripts/components/svg.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(0,_components_logo__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(document.querySelector('.header-logotype'), _img_Logo_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\r\n;(0,_components_svg__WEBPACK_IMPORTED_MODULE_4__.SvgSwitcher)(document.querySelector('.lang__content_switcher'), (_icons_switcher_svg__WEBPACK_IMPORTED_MODULE_2___default()))\r\n\n\n//# sourceURL=webpack://ffk_logistic/./source/assets/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/style.sass */ \"./source/assets/sass/style.sass\");\n/* harmony import */ var _img_Logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/Logo.png */ \"./source/assets/img/Logo.png\");\n/* harmony import */ var _img_airplane_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/airplane.png */ \"./source/assets/img/airplane.png\");\n/* harmony import */ var _img_flowers_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/flowers.png */ \"./source/assets/img/flowers.png\");\n/* harmony import */ var _icons_switcher_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../icons/switcher.svg */ \"./source/assets/icons/switcher.svg\");\n/* harmony import */ var _icons_switcher_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_icons_switcher_svg__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _icons_mail_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../icons/mail.svg */ \"./source/assets/icons/mail.svg\");\n/* harmony import */ var _icons_mail_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_icons_mail_svg__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _icons_phone_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../icons/phone.svg */ \"./source/assets/icons/phone.svg\");\n/* harmony import */ var _icons_phone_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_icons_phone_svg__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _components_logo__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/logo */ \"./source/assets/scripts/components/logo.js\");\n/* harmony import */ var _components_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/svg */ \"./source/assets/scripts/components/svg.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(0,_components_logo__WEBPACK_IMPORTED_MODULE_7__[\"default\"])(document.querySelector('.header-logotype'), _img_Logo_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\r\n\r\n;(0,_components_svg__WEBPACK_IMPORTED_MODULE_8__.SvgIcon)(document.querySelector('.lang__content_switcher'), (_icons_switcher_svg__WEBPACK_IMPORTED_MODULE_4___default()))\r\n\r\n;(0,_components_svg__WEBPACK_IMPORTED_MODULE_8__.SvgIcon)(document.querySelector('.phone-icon'), (_icons_phone_svg__WEBPACK_IMPORTED_MODULE_6___default()))\r\n;(0,_components_svg__WEBPACK_IMPORTED_MODULE_8__.SvgIcon)(document.querySelector('.mail-icon'), (_icons_mail_svg__WEBPACK_IMPORTED_MODULE_5___default()))\r\n\r\n(function Carousel(){\r\n    let carousel = document.querySelector('.wrapper');\r\n    carousel.style.backgroundBlendMode = 'multiply';\r\n    carousel.style.background = `url(${_img_airplane_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"]})`;\r\n    carousel.style.backgroundSize = 'cover';\r\n    carousel.style.backgroundColor = 'rgba(28, 38, 51, .36)';\r\n}())\r\n\n\n//# sourceURL=webpack://ffk_logistic/./source/assets/scripts/index.js?");
 
 /***/ })
 

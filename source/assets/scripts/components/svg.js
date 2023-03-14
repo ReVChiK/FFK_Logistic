@@ -1,3 +1,3 @@
-export function SvgSwitcher(selector, icon){
+export function SvgIcon(selector, icon){
     return selector.innerHTML = icon
 }

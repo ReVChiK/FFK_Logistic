@@ -9,6 +9,8 @@ import ecuador_flower2 from '../img/flower2.png';
 import ecuador_flower3 from '../img/flower3.png';
 import ecuador_flower4 from '../img/flower4.png';
 import ecuador_flower5 from '../img/flower5.png';
+
+import sky from '../img/sky.png';
 /*png*/
 
 /*svg*/
@@ -17,13 +19,21 @@ import mailSvg from '../icons/mail.svg';
 import phoneSvg from '../icons/phone.svg';
 import ecuador_map from '../icons/ecuador_map.svg';
 import geo from '../icons/geolocation.svg';
+
+import about_year from '../icons/years.svg';
+import about_weigth from '../icons/weight.svg';
+import about_procent from '../icons/procent.svg';
+import about_countries from '../icons/countries.svg';
+import about_temperature from '../icons/temperature.svg';
+import about_clients from '../icons/clients.svg';
 /*svg*/
 
 import setLogo from './components/logo'
 
 /*functions*/
 import { SvgIcon } from './components/svg';
-import { SetImg, SetImgText } from './components/photos';
+import { SetImg, SetImgText, Carousel, AboutBackground } from './components/photos';
+import Cards from './components/cards';
 /*functions*/
 
 const ecuador_flowers = [
@@ -37,6 +47,21 @@ const ecuador_flowers = [
 const ecuador_flowers_text = [
     "ke", "co", "cl", "holl", "isr"
 ]
+
+const aboutData = {
+    icons: [
+        about_year, about_weigth, about_procent, about_countries, about_temperature, about_clients
+    ],
+
+    titles: [
+        "7 лет", "775 тонн", "94 %",
+        "14 стран", "+2/8 градуса", "174 клиента"
+    ],
+
+    descriptions: [
+        "Успешно работаем уже более семи лет", "Мы перевезли почти 780 тонн груза", "Средний процент выполнения заказа: 94%", "Осуществляем перевозки из 14 стран", "Соблюдение температур при перевозке", "С нами работают 174 клиента"
+    ]
+}
 
 setLogo(document.querySelector('.header-logotype'), logotype)
 
@@ -53,10 +78,8 @@ SvgIcon(document.querySelector('.geolocation'), geo)
 SetImg(document.querySelectorAll('.flower-img'), ecuador_flowers)
 SetImgText(document.querySelectorAll('.pic__item_text'), ecuador_flowers_text)
 
-(function Carousel(){
-    let carousel = document.querySelector('.wrapper');
-    carousel.style.backgroundBlendMode = 'multiply';
-    carousel.style.background = `url(${airplane})`;
-    carousel.style.backgroundSize = 'cover';
-    carousel.style.backgroundColor = 'rgba(28, 38, 51, .36)';
-}())
+Carousel(document.querySelector('.wrapper'), [airplane, flowers])
+
+AboutBackground(document.querySelector('.about'), sky)
+
+Cards(document.querySelectorAll('.about__item_icon'), document.querySelectorAll('.about__item_data-title'), document.querySelectorAll('.about__item_data-desc'), aboutData)

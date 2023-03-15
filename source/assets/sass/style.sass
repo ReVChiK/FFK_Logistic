@@ -215,3 +215,74 @@
                         margin-top: 14px
                         span
                             font-weight: 600
+.about
+    width: 100%
+    &-container
+        max-width: 1530px
+        margin: 0 auto
+        &__title
+            font-family: 'Montserrat', sans-serif
+            max-width: 412px
+            margin: 0 auto
+            text-align: center
+            padding-top: 120px
+            &_company
+                font-weight: 500
+                font-size: 12px
+                line-height: 15px
+                text-transform: uppercase
+                letter-spacing: 0.1em
+                opacity: 0.7
+                h6
+                    color: #9FCCFF
+            &_main
+                font-weight: 600
+                font-size: 50px
+                line-height: 60px
+                margin-top: 20px
+                h1
+                    color: #fff
+        &__content
+            display: flex
+            justify-content: space-between
+            flex-wrap: wrap
+            margin-top: 55px
+            padding-bottom: 90px
+            &_item
+                width: 490px
+                background-color: #23303F
+                border: 1px solid rgba(85, 122, 161, 0.3)
+                position: relative
+                &::before
+                    content: ""
+                    position: absolute
+                    top: 60px
+                    display: block
+                    width: 1px
+                    height: 50px
+                    background-color: #9FCCFF
+                &:nth-last-child(n+1)
+                    margin-bottom: 30px
+                &-content
+                    font-family: 'Montserrat', sans-serif
+                    display: flex
+                    align-items: center
+                    margin-top: 40px
+                    margin-bottom: 40px
+                    .about__item_icon
+                        width: 60px
+                        margin-left: 40px
+                    .about__item_data
+                        max-width: 320px
+                        margin-left: 30px
+                        &-title
+                            font-weight: 600
+                            font-size: 30px
+                            line-height: 37px
+                            color: #9FCCFF
+                        &-desc
+                            font-weight: 500
+                            font-size: 16px
+                            line-height: 22px
+                            color: #BCC9DA
+                            margin-top: 8px

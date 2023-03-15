@@ -356,3 +356,100 @@ input {
 .wrapper-container__shape_content-data_map__text span {
   font-weight: 600;
 }
+
+.about {
+  width: 100%;
+}
+.about-container {
+  max-width: 1530px;
+  margin: 0 auto;
+}
+.about-container__title {
+  font-family: "Montserrat", sans-serif;
+  max-width: 412px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 120px;
+}
+.about-container__title_company {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.7;
+}
+.about-container__title_company h6 {
+  color: #9FCCFF;
+}
+.about-container__title_main {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  margin-top: 20px;
+}
+.about-container__title_main h1 {
+  color: #fff;
+}
+.about-container__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 55px;
+  padding-bottom: 90px;
+}
+.about-container__content_item {
+  width: 490px;
+  background-color: #23303F;
+  border: 1px solid rgba(85, 122, 161, 0.3);
+  position: relative;
+}
+.about-container__content_item::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  display: block;
+  width: 1px;
+  height: 50px;
+  background-color: #9FCCFF;
+}
+.about-container__content_item:nth-last-child(n+1) {
+  margin-bottom: 30px;
+}
+.about-container__content_item-content {
+  font-family: "Montserrat", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.about-container__content_item-content .about__item_icon {
+  width: 60px;
+  margin-left: 40px;
+}
+.about-container__content_item-content .about__item_data {
+  max-width: 320px;
+  margin-left: 30px;
+}
+.about-container__content_item-content .about__item_data-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #9FCCFF;
+}
+.about-container__content_item-content .about__item_data-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #BCC9DA;
+  margin-top: 8px;
+}

@@ -1,5 +1,5 @@
 let setLogo = (selector, img)=>{
-    return selector.src = img
+    selector.src = img
 }
 
 export default setLogo;

@@ -286,3 +286,138 @@
                             line-height: 22px
                             color: #BCC9DA
                             margin-top: 8px
+.logistic
+    width: 100%
+    overflow: hidden
+    &-container
+        max-width: 1530px
+        margin: 0 auto
+        position: relative
+        &__navigation
+            max-width: 521px
+            margin: 0 auto
+            position: absolute
+            top: 0
+            left: 44%
+            &_content
+                font-family: 'Montserrat', sans-serif
+                display: flex
+                .logistic__navigation_item
+                    &:nth-last-child(n+2)
+                        margin-right: 59px
+                    &:hover
+                        cursor: pointer
+                    &:hover .logistic__navigation_item-before
+                        opacity: 0.8
+                    &:hover .logistic__navigation_item-title
+                        opacity: 0.8
+                    &-before
+                        display: block
+                        width: 1px
+                        height: 50px
+                        margin: 0 auto
+                        margin-bottom: 16px
+                        opacity: 0.36
+                        background-color: #BCC9DA
+                    .active
+                        background-color: #227CE4
+                        height: 80px
+                        margin-bottom: 32px
+                    &-title
+                        max-width: 64px
+                        margin: 0 auto
+                        font-weight: 600
+                        font-size: 12px
+                        line-height: 24px
+                        text-transform: uppercase
+                        transform: rotate(90deg)
+                        color: #BCC9DA
+                        opacity: 0.36
+                        position: relative
+                    .active_
+                        color: #227CE4
+                        opacity: 1
+                    &-description
+                        position: absolute
+                        top: 130%
+                        left: -13%
+                        max-width: 190px
+                        margin: 0 auto
+                        text-align: center
+                        font-weight: 400
+                        font-size: 14px
+                        line-height: 24px
+                        color: #BCC9DA
+                        span
+                            font-weight: 600
+                            color: #fff
+        &__plane
+            position: absolute
+            top: 24px
+            right: -25%
+            svg
+                width: 417px
+                opacity: 0.4
+        &__content
+            display: flex
+            align-items: flex-end
+            padding-top: 120px
+            padding-bottom: 120px
+            &_left
+                &-title
+                    font-family: 'Montserrat', sans-serif
+                    .logistic__title_company
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 15px
+                        letter-spacing: 0.1em
+                        text-transform: uppercase
+                        opacity: 0.7
+                        h6
+                            color: #9FCCFF
+                    .logistic__title_main
+                        font-weight: 600
+                        font-size: 50px
+                        line-height: 60px
+                        max-width: 470px
+                        margin-top: 20px
+                        h1
+                            color: #fff
+                &-data
+                    font-family: 'Montserrat', sans-serif
+                    margin-top: 55px
+                    p
+                        max-width: 570px
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 24px
+                        color: #BCC9DA
+                        span
+                            font-weight: 600
+                            color: #fff
+                &-button
+                    margin-top: 90px
+                    .logistic-btn
+                        font-family: 'Montserrat', sans-serif
+                        outline: none
+                        border: 1px solid rgba(255, 255, 255, 0.36)
+                        background-color: unset
+                        padding: 25px 55px
+                        font-weight: 500
+                        font-size: 12px
+                        line-height: 15px
+                        letter-spacing: 0.1em
+                        text-transform: uppercase
+                        color: #fff
+                        &:hover
+                            cursor: pointer
+            &_right
+                margin-left: 80px
+                position: relative
+                &-map
+                    width: 880px
+                &-map__pin
+                    width: 544px
+                    position: absolute
+                    top: 85px
+                    left: 114px
